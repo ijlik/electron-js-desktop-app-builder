@@ -14,7 +14,7 @@
     "icon": "icon.icns"
   },
   "scripts": {
-    "win-build": "electron-packager . google_app --platform=win32 --arch=x64 --icon=icon.ico",
+    "win-build": "electron-builder --win --x64",
     "mac-build": "electron-builder --mac --x64"
   }
 }
